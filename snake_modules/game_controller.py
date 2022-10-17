@@ -150,7 +150,6 @@ class GameController(Verbose):
         self.vprint(
             "Player:", self.player,
             "\nScore:", self.score,
-            "\nDelay:", self.delay,
             "\nTime left:", self.eat_timer - curr_time
         )
         sleep(self.delay)
