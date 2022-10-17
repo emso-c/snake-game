@@ -1,2 +1,4 @@
 .env/
 storage/scores.json
+__pycache__
+*.pyc
